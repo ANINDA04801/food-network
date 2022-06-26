@@ -3,12 +3,16 @@ body {
     margin: 0%;
 }
 
+.flexibe-container {
+    display: flex;
+    margin-bottom: 0px;
+}
+
 .sec-a {
     background-image: url(images/Frame\ 57.jpg);
     background-attachment: scroll;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    display: flex;
 }
 
 h1 {
@@ -33,9 +37,33 @@ h1 {
 }
 
 .link {
+    font-weight: 700;
     border-radius: 55px;
     text-decoration: none;
     color: rgb(23, 23, 51);
     background-image: linear-gradient(rgb(110, 165, 187), rgb(202, 238, 250));
     padding: 4%;
+}
+
+.sec-b {
+    background-image: url(images/Frame\ 56.jpg);
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.smartman {
+    padding-top: 10%;
+}
+
+h2 {
+    font-size: 45px;
+    color: darkblue;
+}
+
+.about-me {
+    padding-top: 15%;
+    padding-left: 60px;
+    padding-right: 15%;
+    text-align: justify;
 }
