@@ -139,3 +139,25 @@ h5 {
     text-align: left;
     padding: 20px 50px 20px 50px;
 }
+
+.sec-d {
+    background-color: black;
+}
+
+.ending {
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 15%;
+}
+
+#orange {
+    color: orange;
+    font-size: xx-large;
+    font-weight: 800;
+}
+
+#gray {
+    color: rgb(70, 61, 61);
+    font-size: xx-large;
+    font-weight: 800;
+}
